@@ -1,0 +1,6 @@
+I  spent just over two hours working on my Tic Tac Toe game with Python.  I had some trouble getting some basic functions to work, but I could get them working with persistence. 
+I finished the game board and finished the game's opening function with player 1's choice of letter. I am starting to come up with ideas on how to get the rest of the game working.
+Basically, at this point, I need to establish game flow between players, marking their choices on the board and calculating win conditions. 
+I also want to incorporate the ability to quit anytime and a replay game option at the end of the game. I think it will take me several more hours to finish this. 
+I'm doing this with as little help as possible. Taking the challenging route will make me a better programmer overall. The best path is the hardest earned. 
+I'm looking forward to continuing this tomorrow.
