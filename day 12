@@ -1,0 +1,15 @@
+#100DaysOfCode Day 12
+
+Spent about an hour and a half trying to figure out why my #Python code wasn't working.
+
+And I found out it's because I don't understand this particular Boolean statement:
+
+cell_list[0] = ' '
+print(cell_list[0])
+
+bool(cell_list[0] == 'O' or 'X')
+True
+print(cell_list[0])
+
+
+Hopefully I can get an awnser to this soon. Very mind bogleing to me
