@@ -1,0 +1,38 @@
+Today I spent exactly one hour completing the Object Oriented Programming - Challenge in the Complete Python Bootcamp From Zero to Hero in Python Udemy Course by Jose Portilla. 
+
+The challenge: 
+
+Create a bank account class that has two attributes:
+
+owner
+balance
+
+and two methods:
+
+deposit
+withdraw
+
+As an added requirement, withdrawals may not exceed the available balance.
+Instantiate your class, make several deposits and withdrawals, and test to make sure the account can't be overdrawn.
+
+My code to complete the challenge:
+
+
+class Account():
+    def __init__(self,owner,balance):
+        self.owner = owner
+        self.balance = balance
+        
+    def deposit(self,amount):
+        self.balance += self.balance + amount
+        print(f"${amount} was added to {self.owner}'s account\nNew balance = ${self.balance}")
+        
+    def withdraw(self,amount):
+        if amount > self.balance:
+            print(f"Not enough funds available to withdraw ${amount}\nBalance = ${self.balance}")
+        else:
+                  self.balance -= amount
+                  print(f"${amount} was withdrawn from {self.owner}'s account\nNew balance = ${self.balance}")
+                    
+    def __str__(self):
+        return f"Account Owner: {self.owner}\nAccount Balance: ${self.balance}"
