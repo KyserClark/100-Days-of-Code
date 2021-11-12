@@ -1,0 +1,18 @@
+After being in a rut for an hour last night, I made significant progress today with the 4 hours I had available to dedicate to Python. 
+Using the workbook is helping me out a lot. First, I created the Hand and Chip classes, 
+which keep track of the player's hand and chip data respectfully. The hand class can add cards from the deck to the hand and modify the 
+total hand value depending on if Aces need to be high or low. The Chip class has methods that add bet winnings to the player's chip balance and 
+a method that removes their bet amount if they lose the hand. Next, I created a betting function. This portion of my code took up the most time 
+because it required a lot of testing and changing the Chip class many times to get it working correctly. 
+After a lot of trial and error, I was able to get the bet function working flawlessly and update the chip class accordingly. 
+
+After this, I spent about an hour looking at ways to get the card printed on the screen in ASCII text instead of printing out 
+"Ace of Spades, King of Hearts" for the player to read. After a few google searches, getting the ASCII versions of the cards to print out 
+is a project in itself. I need to get the game working before I can consider making it look good on screen. This is not a requirement of the project,
+and after playing the instructor's final version of the game, I know mine will appeal more to the player. 
+Even though making the game look better will take me longer, I want to share my work with others and be proud of it. 
+There is still a lot of work to be done, but I made good progress. 
+Tomorrow will be all about creating the rest of the game functions since all my classes are complete. 
+At least until I find out, I did something wrong. 
+
+Total Time Dedicated to Python Learning = 64 hours
