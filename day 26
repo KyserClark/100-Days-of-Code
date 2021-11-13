@@ -1,0 +1,10 @@
+Six-hour Python session today. I made progress in the Blackjack game, but it's not lighting speed by any means. 
+I still get stuck at some beginner-level stuff; however, getting stuck is where the real understanding happens. 
+Today I added more to the Hand class, and now I have a much clearer picture of how everything fits together. 
+I created the hit(Hand) function, as well as the hit_or_stand(): function. 
+These allow the player to choose if they want to hit or stand, and the game will deal the player a card depending on the choice. 
+It doesn't sound like 6 hours of work, but I ran 843 cells troubleshooting and trying to get things to work and understand how everything operates. 
+It's a lot of trial and error, and as a complete newbie to programming, I think I am doing pretty good so far. I think I can get the game done in the next couple of days or so.
+We will see-through. 
+
+Total Time Dedicated to Python Learning = 72 hours
