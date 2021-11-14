@@ -1,0 +1,24 @@
+THE BLACKJACK GAME IS DONE!!!
+
+After 23 hours across six days, I finally have a fully functional one-player simple text-based Blackjack game built with Python.  It works VERY well. 
+I played over 100 hands with the final code without a hitch. During coding and troubleshooting today, I ran 560 cells. 
+Today, I added the show_some and show_all functions, which show the hands depending on whether the dealer's first card is face up or face down. 
+After that, I added all hand-ending scenarios. Next was the play_again function that asks the player if they want to play again. 
+Lastly, I coded all the classes and functions to work together in the final section of the code and gave the player the rules of the game. 
+
+Gluing all the classes and functions together into a final product was the most time-consuming part. It took up about half the day (5 hours or so). 
+I had to completely redo the betting methods and add Blackjacks that pay the player 3 to 2 (150%) of their bet and a lot of other minor issues and fixes. 
+
+Today I spent 10 hours on this project. I only wanted to code for 6 hours and work on other projects later in the day, 
+but I was in the groove and couldn't stop, and I got obsessed with completing the game today since it was "so close" to being done. 
+So I didn't do anything but code this game out and test it, and test it some more. Dedication and persistence pay off!
+
+Tomorrow I will look at the intended solutions for this project and follow allow with the instructor for more hands-on experience. 
+I'm curious how mine and his code will differ. 
+One thing I know for sure is that my game is more user-friendly, has a few extra features, and just plays better. 
+I'm not saying I am a better coder than the instructor, I'm just saying that I went above and beyond the project requirements because I wanted to. 
+
+The code can be viewed in my completed projects here on github
+https://github.com/KyserClark/Completed-Projects/blob/main/Blackjack
+
+Total Time Dedicated to Python Learning = 82 hours
