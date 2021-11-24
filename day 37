@@ -1,0 +1,7 @@
+Today with 1.5 hours, I completed Chapter 2: Variables and Simple Data Types in the Python Crash Course book by Eric Matthes.
+
+Everything here was very basic, however, I learned two brand new things. 
+I learned the .strip(), .lstrip(), and .rstrip() methods as well as using underscores to represent long numbers in Python like this: 100_000_000. 
+Python doesn't read the underscores in numbers, so this is useful to help humans read long numbers. 
+
+Total Time Dedicated to Python Learning = 107.75 hours
