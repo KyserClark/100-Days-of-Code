@@ -1,0 +1,7 @@
+Another fantastic day of Python learning. Today I spent 3.5 hours going through Chapter 7: User Input and while loops in the Python Crash Course book by Eric Matthes. 
+Definitely not new concepts for me. However, I did learn a clever new way of accepting user input. 
+I also realized that 'continue' inside a while loop doesn't continue the while loop at all. Instead, it stops the while loop in place and returns back to the beginning. 
+I thought this whole time, 'continue' meant to run to the next section of the loop. 
+This alone probably cause some headaches in my previous programs, so it's really nice to understand it fully. Tomorrow I will continue with the book on to Chapter 8: Functions.
+
+Total Time Dedicated to Python Learning = 128 hours
