@@ -1,0 +1,6 @@
+Another hour of Python learning today! I continued Chapter 9: Functions in the Python Crash Course book by Eric Matthes.
+Unfortunately, I did not finish it. However, I did learn about a very valuable take when creating a child class. 
+super() lets you truly inherit the parent's class attributes when creating a child class. This is extremely useful. 
+Tomorrow I will continue with Chapter 9. 
+
+Total Time Dedicated to Python Learning = 133.5 hours
