@@ -1,0 +1,11 @@
+Today I finished Chapter 11: Testing Your Code in Python Crash Course by Eric Matthes. 
+It took me about an hour and a half to read the rest of the chapter and complete the last exercise. 
+To be honest, I'm not sure of the advantages of the test methods presented in the book over my previous testing method of "trial and error." 
+It seems as if the test exercises served no real advantage over running the code a few times and looking at the 'real' results. 
+This was all new content to me, as this way of testing was never mentioned in my previous Udemy course, 
+so I wonder how other Python developers feel about unittest. 
+Chapter 11 completes Part I of the book,  and tomorrow I will start Part II: Projects. There are three projects in Part II. 
+Alien Invasion: Making a Game with Python, Data Visualization, and Web Applications. 
+I have elected to do the projects in order, so I will start with Chapter 12: A Ship That Fires Bullets. 
+
+Total Time Dedicated to Python Learning = 144.5 hours
