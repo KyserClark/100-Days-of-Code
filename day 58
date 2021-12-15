@@ -1,0 +1,8 @@
+I logged three hours today. I finished Chapter 12: A Ship the Fires Bullets in Python Crash Course by Eric Matthes. 
+I limited the ship's range so it couldn't fly off the screen; I added a 'Q' to quit control, made the game run in fullscreen, 
+made the ship fire bullets, and limited the player to only three bullets on screen, once to promote accuracy.  
+Once the ship was able to shoot bullets it was time to build a fleet of Aliens in Chapter 13: Aliens! 
+At its time, the game has an entire fleet of aliens that do not move and do not disappear when hit by a bullet. 
+Tomorrow that will change when I continue and finish chapter 13.
+
+Total Time Dedicated to Python Learning = 151 hours
