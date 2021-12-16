@@ -1,0 +1,8 @@
+Today I logged three hours into the Alien Invasion Game project. I finished Chapter 12: Aliens! in Python Crash Course by Eric Matthes. 
+First, I started with making the alien fleet move, then detected bullet-alien collisions and removed any alien hit by a bullet. 
+Next, I added end game conditions when the player ship is hit by an alien or if an alien drops off the bottom of the screen and sets the game to 3 lives.  
+Then I started Chapter 14: Scoring, where the "Play" button was created to start the game. 
+Then I made increasing difficulty levels for each time the alien fleet was wiped. The game speeds up after completing each level.
+Tomorrow I begin the "Scoring" section of the chapter where the game's scoring system is implemented. 
+
+Total Time Dedicated to Python Learning = 154 hours
