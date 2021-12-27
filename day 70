@@ -1,0 +1,80 @@
+Continuing with the Python Network Programming for Network Engineers Udemy Course by David Bombal, 
+I learned some more automation techniques and added five switches to the topology (see figure 1). 
+I can successfully configure all six switches simultaneously in any manner I choose. Automation is compelling.
+Unfortunately, I spent the bulk of my time trying to get SSH to work. 
+Every time I tried to SSH from the Network Automation Container to one of the switches, it would not accept my password. After 5-6 hours. 
+I finally discovered that I couldn't SSH into the switches because the Network Automation Container tries to SSH into the root account of the switch by default. 
+That means you have to specify the account you want to SSH to make a connection. 
+And because I wasn't specifying my 'Kyser' account, and  I didn't have a 'root' account on the switches, I couldn't make an SSH connection. 
+Once I realized the reason for SSH not working, I rebuilt the entire topology using 'root' as the only account. 
+That way, I don't need to specify a username when I SSH from the Network Automation container to one of the switches. 
+Today was a solid 8.5 hours of labbing. Even though I was getting a bit frustrated about a simple SSH connection not connecting, I had fun. 
+I'm glad I didn't give up and figured it out. I can now continue the course tomorrow. I'm shooting for another 8-9 hours! 
+
+a script that adds n number of VLANs to every switch specified in 'my switches'
+
+import getpass
+import telnetlib
+
+user = input("Enter your telnet username: ")
+password = getpass.getpass()
+
+file = open('myswitches')
+
+for ip in file:
+    ip = ip.strip()
+    print("Configuring Switch " + ip)
+    tn = telnetlib.Telnet(ip)
+    tn.read_until(b"Username: ")
+    tn.write(user.encode('ascii') + b"\n")
+
+    if password:
+        tn.read_until(b"Password: ")
+        tn.write(password.encode('ascii') + b"\n")
+
+    tn.write(b"conf t\n")
+
+    for n in range(2, 20):
+        tn.write(b"vlan " + str(n).encode('ascii') + b"\n")
+        tn.write(b"name Python_Vlan_" + str(n).encode('ascii') + b"\n")
+
+    tn.write(b"end\n")
+    tn.write(b"exit\n")
+
+    print(tn.read_all().decode('ascii'))
+    
+    
+    
+    
+a script that reads the running-config and saves it to a file for backup for each switch
+    
+import getpass
+import telnetlib
+
+user = input('Enter your telnet username: ')
+password = getpass.getpass()
+
+file = open('myswitches')
+
+for ip in file:
+    ip = ip.strip()
+    print('Getting running config from Switch ' + ip)
+    tn = telnetlib.Telnet(ip)
+    tn.read_until(b'Username: ')
+    tn.write(user.encode('ascii') + b'\n')
+
+    if password:
+        tn.read_until(b'Password: ')
+        tn.write(password.encode('ascii') + b'\n')
+
+    tn.write(b'wr\n')
+    tn.write(b'terminal length 0\n')
+    tn.write(b'show run\n')
+    tn.write(b'exit\n')
+
+    readoutput = tn.read_all()
+    saveoutput = open('switch' + ip, 'w')
+    saveoutput.write(readoutput.decode('ascii') + '\n')
+    saveoutput.close()
+    
+    Total Time Dedicated to Python Learning = 189 hours
