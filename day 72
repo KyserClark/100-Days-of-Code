@@ -1,0 +1,32 @@
+Today I started to read Automate the Boring Stuff with Python by Al Sweigart. With the 6.5 hours, I decided to put towards it today. 
+I managed to read Chapters 1, 2, 3, and 4 (148 pages!). 
+I still need to do the practice questions and practice projects at the end of Chapter 4 though. Tomorrow I hope to read even more of the book. 
+I was feeling off today and I had to do physical therapy as well. 
+
+Here is my code for the Collatz sequence:
+
+def collatz(number):
+    if number % 2 == 0:
+        output = (number // 2)
+
+    else:
+        output = 3 * number + 1
+
+    print(output)
+
+    if output != 1:
+        collatz(output)
+
+
+while True:
+    try:
+        user_number = int(input('Enter Number: '))
+        break
+
+    except:
+        print('Input must be an integer')
+
+collatz(user_number)
+
+
+Total Time Dedicated to Python Learning = 204.5 hours
